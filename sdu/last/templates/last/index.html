@@ -1,0 +1,46 @@
+{% extends   'last/base.html' %}
+{% load static %}
+{% block content %}
+<section class = "blog" id = "blog">
+  <div class = "container">
+    <div class = "title">
+      <h2>Wonderful  Kazakhstan</h2>
+      <p>Join us</p>
+    </div>
+    <div class = "blog-content">
+      <div class = "blog-item">
+        <div class = "blog-img">
+          <img  id = "image" src="{% static 'last/img/1.jpg' %}"/>
+          <span><i class = "far fa-heart"></i></span>
+        </div>
+        <div class = "blog-text">
+          <h2>Cities</h2>
+          <p>Қазақстан жалпы жас мемлекет. Бірақ көп қалалары өте ескі. Жалпы Қазақстанда 14 облыс 3 мемлекеттік маңызы бар қала бар . Ал қалаларының толық саны 81 . Ең үлкен қалалары Алматы , Астана , Ақтау , Шымкент , Қызылорда ,Ақтөбе.</p>
+
+        </div>
+      </div>
+
+      <div class = "blog-item">
+        <div class = "blog-img">
+          <img  id = "image " src="{% static 'last/img/2.jpg' %}"/>
+          <span><i class = "far fa-heart"></i></span>
+        </div>
+        <div class = "blog-text">
+          <h2>Culture</h2>
+          <p>Қазақстанның мәдениеті өте ерекше және әдемі . Жалпы ұлттық тағамдары, киімдері қазіргі таңда да қолданыста . Қазақтардың ұлттық тағамдары бешбармақ , бауырсақ, қуырдақ , қазы-қарта , құрт , айран және т.б . Ұлттық киімдеріне келетін болсақ сәукеле , шапан ,кәжекей т.б</p>
+        </div>
+      </div>
+      <div class = "blog-item">
+        <div class = "blog-img">
+          <img  id = "image" src="{% static 'last/img/3.jpg' %}"/>
+          <span><i class = "far fa-heart"></i></span>
+        </div>
+        <div class = "blog-text">
+          <h2>Artists</h2>
+          <p>Қазақстанның шоу бизнесі енді дамып келіп жатыр деп айтуға болады . Үлкендер халық әндерін және той әндерін тыңдағанды ұнатады . Ал жастар жағы орыс тіліндегі немесе ағылшын әндерін көбірек тыңдайды. Қазіргі орындаушылардан Тоқсан бір тобын , Мирас Жүгіносов , Калифорния , Ерке Есмахан сиякты артистер танымал .</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{% endblock %}
